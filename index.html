@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Square Griddy</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/square-griddy.css">
+</head>
+<body style="height:3000px"><!-- set the height to make $(window).scrollHeight() > $(window).height()  -->
+
+    <div id="sq-griddy"
+        data-defaultSelector='#sq-griddy-inner'
+        data-griddyColLength='18'
+        data-griddyResponsiveSetting='[
+            { "breakpoint":1024, "collength":3 },
+            { "breakpoint":767, "collength":2 } ]'>
+    <!-- you can set the element, number of the columns and both for different screensize
+        data-griddyColLength: number of the columns in a row
+        data-griddyResponsiveSetting: breakpoint: px and collength: number of the columns in a row
+    -->
+
+        <div id="sq-griddy-inner">
+            <div style="background: #DA425F"></div>
+            <div style="background: #D72767"></div>
+            <div style="background: #36A690"></div>
+            <div style="background: #D9B777"></div>
+            <div style="background: #D96A69"></div>
+            <div style="background: #DABA5F"></div>
+            <div style="background: #D6D767"></div>
+            <div style="background: #326390"></div>
+            <div style="background: #D93577"></div>
+            <div style="background: #D9AC69"></div>
+            <div style="background: #DA425F"></div>
+            <div style="background: #D72767"></div>
+            <div style="background: #36A690"></div>
+            <div style="background: #D9B777"></div>
+            <div style="background: #D96A69"></div>
+            <div style="background: #DABA5F"></div>
+            <div style="background: #D6D767"></div>
+            <div style="background: #326390"></div>
+            <div style="background: #D93577"></div>
+            <div style="background: #D9AC69"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="./js/square-griddy.js"></script>
+</body>
+</html>
