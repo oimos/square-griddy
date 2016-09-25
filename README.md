@@ -1,5 +1,7 @@
 # Square-Griddy
-JS plugin which shows square grids which works for responsive pages
+JS plugin which shows square grids which works for responsive pages. You can set breakpoints as you like.
+
+[Demo Page](https://shinyatk1022.github.io/square-griddy/)
 
 
 ###How to use
@@ -42,13 +44,3 @@ Please load the following files
 That's it! 
 If you have questions or feedback, please contact me. 
 Thanks!
-
-
-
-
-
-
-
-
-
-
